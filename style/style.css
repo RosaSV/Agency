@@ -24,6 +24,7 @@
     min-height: 90px;
     margin: 0 auto;
     background: #000000;
+    margin-top: 30px;
 }
 
 .header__navigation {
@@ -136,6 +137,9 @@
     max-width: 1250px;
     align-items: center;
     margin: 0 auto;
+    padding-top: 108px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .bloc__title {
