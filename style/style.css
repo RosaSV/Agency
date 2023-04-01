@@ -349,7 +349,7 @@
 
 .product:hover {
     cursor: pointer;
-    max-width: 320px;
+    transform: scale(1.2);
 }
 
 .team {
