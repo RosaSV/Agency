@@ -15,14 +15,14 @@
 * * * * * * * * { outline: 1px solid blue; } */
 
 .page__content {
-    width: 1528px;
+    width: 100%;
 }
 
 .page__header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1528px;
+    width: 100%;
     padding-top: 30px;
 }
 
