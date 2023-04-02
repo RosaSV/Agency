@@ -3,16 +3,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 16px;
 }
 
+/* * { outline: 2px dotted red; }
+* * { outline: 2px dotted green; }
+* * * { outline: 2px dotted orange; }
+* * * * { outline: 2px dotted blue; }
+* * * * * { outline: 1px solid red; }
+* * * * * * { outline: 1px solid green; }
+* * * * * * * { outline: 1px solid orange; }
+* * * * * * * * { outline: 1px solid blue; } */
+
 .page__content {
-    flex-grow: 1;
-    width: 1578px;
+    width: 1528px;
 }
 
 .page__header {
-    width: 1578px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1528px;
+    padding-top: 30px;
 }
 
 .page__grey {
@@ -25,11 +36,10 @@
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: center;
-    width: 100%;
-    max-width: 1250px;
+    max-width: 1528px;
     min-height: 90px;
     background: #000000;
-    margin: 0 auto;
+    width: 1250px;
 }
 
 .header__navigation {
@@ -67,10 +77,6 @@
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-}
-
-.page__content {
-    flex-grow: 1;
 }
 
 .intro {
@@ -520,8 +526,7 @@
 .mailing {
     box-sizing: border-box;
     display: block;
-    width: 100%;
-    max-width: 100%;
+    max-width: 1528px;
     background-color: #2d2d2d;
     padding-top: 124px;
     padding-bottom: 140px;
@@ -762,7 +767,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1586px;
+    width: 1528px;
     height: 113px;
     background: #313030;
 
