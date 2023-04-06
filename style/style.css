@@ -5,8 +5,8 @@
     align-items: center;
 }
 
-/* * { outline: 2px dotted red; }
-* * { outline: 2px dotted green; }
+* { outline: 2px dotted red; }
+/* * * { outline: 2px dotted green; }
 * * * { outline: 2px dotted orange; }
 * * * * { outline: 2px dotted blue; }
 * * * * * { outline: 1px solid red; }
@@ -991,7 +991,6 @@
 
     .section {
         max-width: 800px;
-
     }
 
     .mems {
@@ -1044,6 +1043,205 @@
 
     .basement {
         width: 800px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 600px;
+    }
+
+    .section {
+        max-width: 600px;
+    }
+
+    .intro {
+        width: 500px;
+    }
+
+    .intro__image {
+        width: 450px;
+        height: 250px;
+    }
+
+    .intro__heading {
+        width: 450px;
+        height: 200px;
+    }
+
+    .intro__content {
+        padding-left: 80px;
+    }
+
+    .bloc {
+        width: 600px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .bloc-item {
+        padding-left: 100px;
+        width: 600px;
+    }
+
+    .bloc__text {
+        margin-right: 80px;
+    }
+
+    .line {
+        width: 400px;
+    }
+
+    .mailing__input {
+        max-width: 400px;
+    }
+
+    .sending__text {
+        width: 400px;
+        height: 140px;
+    }
+
+    .contact {
+        width: 600px;
+        margin-left: 0;
+    }
+
+    .contact__form {
+        width: 600px;
+    }
+
+    .contact__input {
+        width: 150px;
+    }
+
+    .contact__textarea {
+        width: 400px;
+    }
+
+    .contact__button {
+        width: 450px;
+    }
+
+    .contact__info {
+        width: 400px;
+    }
+
+    .basement {
+        width: 600px;
+    }
+
+    .basement__text {
+        width: 200px;
+        
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section {
+        max-width: 400px;
+        padding-left: 15px;
+    }
+
+    .intro__heading {
+        font-weight: 700;
+        font-size: 40px;
+        width: 350px;
+        height: 200px;
+    }
+
+    .intro__content {
+        max-width: 400px;
+        padding-left: 20px;
+        margin-right: 15px;
+    }
+
+    .intro__image {
+        width: 350px;
+        height: 200px;
+    }
+
+    .bloc {
+        width: 400px;
+    }
+
+    .bloc-item {
+        padding-left: 10px;
+    }
+
+    .team__header {
+        padding-left: 10px;
+    }
+
+    .team__text {
+        width: 300px;
+        height: 150px;
+    }
+
+    .mailing__input {
+        max-width: 200px;
+    }
+
+    .mailing__button {
+        margin-left: 0;
+    }
+
+    .mailing__heading {
+        height: 200px;
+        font-size: 40px;
+    }
+
+    .sending__form {
+        width: 400px;
+        padding-left: 10px;
+    }
+
+    .sending__text {
+        height: 200px;
+        width: 300px;
+    }
+
+    .contact {
+        width: 400px;
+    }
+
+    .contact__inputs {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .contact__input {
+        width: 250px;
+    }
+
+    .contact__textarea {
+        width: 400px;
+        padding: 0;
+    }
+    
+    .contact__button {
+        width: 400px;
+    }
+
+    .contact__info {
+        width: 400px;
+        margin-left: 0;
+    }
+
+    .basement {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .basement__list {
+        padding-left: 0;
+        padding-top: 10px;
     }
 }
 
