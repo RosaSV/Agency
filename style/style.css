@@ -1245,6 +1245,131 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .section {
+        max-width: 350px;
+    }
+
+    .intro__heading {
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+    .intro__content {
+        padding-left: 5px;
+    }
+
+    .intro__image {
+        width: 250px;
+    }
+
+    .action-button {
+        margin-left: 50px;
+    }
+
+    .bloc {
+        width: 350px;
+    }
+
+    .bloc-item {
+        width: 350px;
+    }
+
+    .bloc__title {
+        font-weight: 700;
+        font-size: 40px;
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    .bloc__text {
+        margin-left: 30px;
+    }
+
+    .bloc-action-button {
+        margin-left: 30px;
+    }
+
+    .bloc-list {
+        padding-left: 15px;
+    }
+
+    .line {
+        width: 250px;
+    }
+
+    .feature__header {
+        width: 350px;
+    }
+
+    .feature__heading {
+        font-size: 35px;
+        width: 200px;
+        margin-left: 70px;
+    }
+
+    .feature__text {
+        width: 300px;
+    }
+
+    .team__about {
+        width: 300px;
+    }
+
+    .team__name {
+        width: 300px;
+    }
+
+    .team__links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team__link {
+        padding-bottom: 15px;
+    }
+
+    .mems {
+        justify-content: center;
+    }
+
+    .mailing__heading {
+        height: 400px;
+    }
+
+    .sending__form {
+        width: 350px;
+    }
+
+    .contact {
+        width: 350px;
+    }
+
+    .contact__inputs {
+        width: 300px;
+    }
+
+    .contact__textarea {
+        max-width: 300px;
+    }
+
+    .contact__button {
+        width: 300px;
+    }
+
+    .contact__info {
+        width: 350px;
+    }
+
+    .basement {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
 
 
 
