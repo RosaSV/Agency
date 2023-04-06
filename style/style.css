@@ -5,8 +5,8 @@
     align-items: center;
 }
 
-* { outline: 2px dotted red; }
-/* * * { outline: 2px dotted green; }
+/* * { outline: 2px dotted red; }
+* * { outline: 2px dotted green; }
 * * * { outline: 2px dotted orange; }
 * * * * { outline: 2px dotted blue; }
 * * * * * { outline: 1px solid red; }
@@ -1067,6 +1067,7 @@
     .intro__heading {
         width: 450px;
         height: 200px;
+        font-size: 50px;
     }
 
     .intro__content {
@@ -1251,7 +1252,7 @@
     }
 
     .intro__heading {
-        font-weight: 400;
+        font-weight: 700;
         font-size: 40px;
     }
 
@@ -1367,7 +1368,115 @@
 }
 
 @media screen and (max-width: 320px) {
-    
+    .section {
+        max-width: 300px;
+    }
+
+    .intro__content {
+        width: 300px;
+    }
+
+    .intro__heading {
+        width: 250px;
+        font-size: 25px;
+    }
+
+    .intro__text {
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .action-button {
+        margin-left: 20px;
+    }
+
+    .bloc {
+        width: 300px;
+    }
+
+    .bloc-item {
+        width: 300px;
+    }
+
+    .bloc-list {
+        width: 300px;
+        padding-left: 0;
+    }
+
+    .bloc__heading {
+        margin-left: 20px;
+        width: 250px;
+        height: 200px;
+    }
+
+    .bloc__caption {
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    .bloc__thumb {
+        margin-left: 20px;
+    }
+
+    .feature__header {
+        width: 300px;
+    }
+
+    .feature__heading {
+        margin-left: 40px;
+    }
+
+    .feature__text {
+        width: 250px;
+    }
+
+    .team__photo-on {
+        width: 280px;
+        margin: 0;
+    }
+
+    .team__main-info {
+        width: 300px;
+    }
+
+    .contact {
+        width: 300px;
+    }
+
+    .contact__input {
+        width: 200px;
+    }
+
+    .contact__inputs {
+        width: 250px;
+    }
+
+    .contact__textarea {
+        max-width: 250px;
+        margin-left: 10px;
+    }
+
+    .contact__button {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .contact__info {
+        width: 300px;
+    }
+
+    .contact__list {
+        width: 200px;
+    }
+
+    .cotact__info-list {
+        padding-left: 20px;
+    }
+
+    .basement {
+        width: 300px;
+    }
+
 }
 
 
