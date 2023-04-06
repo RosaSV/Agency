@@ -907,6 +907,65 @@
     }
   }
 
+@media screen and (max-width: 1440px) {
+    .header {
+        width: 1200px;
+        margin-left: 0;
+    }
+
+    .section {
+        max-width: 1200px;
+ 
+    }
+
+    .intro {
+        justify-content: center;
+        width: 1200px;
+    }
+
+    .intro__content {
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .bloc {
+        width: 1200px;
+        justify-content: center;
+ 
+    }
+    .feature {
+        width: 1200px;
+    }
+
+    .line {
+        width: 1000px;
+    }
+
+    .mailing {
+        width: 1200px;
+ 
+    }
+
+    .contact {
+        width: 1200px;
+        flex-wrap: wrap;
+    }
+
+    .contact__info {
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .basement {
+        width: 1200px;
+    }
+
+    .basement__text {
+        padding-left: 30px;
+        padding-right: 0;
+    }
+}  
+
 
 
 
