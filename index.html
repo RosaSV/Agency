@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, 
+        initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Agency</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Open+Sans&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link href="./style/style.css" rel="stylesheet">
+    <script async src="./javascript/script.js">
+    </script>
 </head>
 <body class="page">
     <div class="page__header page__grey">
@@ -19,16 +22,39 @@
                         <a class="menu__link" href="#">Home</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#portfolio">Portfolio</a>
+                        <a class="menu__link link__portfolio" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#about">About us</a>
+                        <a class="menu__link link__about" href="#about">About us</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#contact">Contact</a>
+                        <a class="menu__link link__contact" href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
+            <div class="burger">
+                <span class="burger__item burger__item_first"></span>
+                <span class="burger__item burger__item_second"></span>
+                <span class="burger__item burger__item_third"></span>
+            </div>
+            <div class="burger__popup">
+                <nav class="menu__navigation_burger">
+                    <ul class="menu_burger">
+                        <li class="menu__item_burger">
+                            <a class="menu__link_burger" href="#">Home</a>
+                        </li>
+                        <li class="menu__item_burger">
+                            <a class="menu__link_burger" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="menu__item_burger">
+                            <a class="menu__link_burger" href="#about">About us</a>
+                        </li>
+                        <li class="menu__item_burger">
+                            <a class="menu__link_burger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+              </div>
         </header>
     </div>
     <main class="page__content">
