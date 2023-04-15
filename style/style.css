@@ -361,14 +361,10 @@
 }
 
 .products {
-    display: none;
+    display: flex;
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.products:target {
-    display: flex;
 }
 
 .product:hover {
